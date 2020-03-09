@@ -148,7 +148,7 @@ Function Get-PeplinkDevice {
         Returns a System.Object.PSCustomObject with the device data. 
 
         .Example
-        $peplink_Device = $test = Get-PeplinkDevice -token $token -orgid "asdf" -deviceid "78"
+        $peplink_Device = Get-PeplinkDevice -token $token -orgid "asdf" -deviceid "78"
 
     #>   
     $pepURI = $baseURI + "/o/$orgID/d/$deviceID"
